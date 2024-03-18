@@ -1,0 +1,29 @@
+.DS_Store
+node_modules
+.turbo
+*.log
+**/dist/*
+!**/dist/.gitkeep
+dist-ssr
+*.local
+.env
+.cache
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.eslintcache

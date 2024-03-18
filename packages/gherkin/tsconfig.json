@@ -1,0 +1,9 @@
+{
+  "extends": "@lynxwall/lynxbdd-tsconfig/unbuild.json",
+  "compilerOptions": {
+    "declarationMap": false,
+    "noEmit": false,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts"]
+}

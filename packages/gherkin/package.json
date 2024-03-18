@@ -1,0 +1,24 @@
+{
+  "name": "@lynxwall/lynxbdd-gherkin",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub"
+  },
+  "devDependencies": {
+    "@lynxwall/lynxbdd-tsconfig": "workspace:*",
+    "@types/node": "^20.8.4",
+    "typescript": "^5.2.2"
+  }
+}
