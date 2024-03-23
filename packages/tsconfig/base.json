@@ -1,24 +1,24 @@
 {
-  "display": "Default",
-  "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "noImplicitThis": true,
-    "strict": true,
-    "verbatimModuleSyntax": true,
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "composite": false,
-    "declaration": true,
-    "declarationMap": false,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "experimentalDecorators": true,
-    "isolatedModules": true,
-    "allowSyntheticDefaultImports": true
-  }
+	"display": "Default",
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"resolveJsonModule": true,
+		"noImplicitThis": true,
+		"strict": true,
+		"verbatimModuleSyntax": true,
+		"target": "ESNext",
+		"useDefineForClassFields": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"composite": false,
+		"declaration": true,
+		"declarationMap": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"experimentalDecorators": true,
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true
+	}
 }

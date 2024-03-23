@@ -27,8 +27,8 @@ As a result of these considerations, we've decided to perform a major re-write a
 
 The current implementation of cucumber-tsflow will be split into two separate packages with the following names:
 
-- **@lynxwall/lynxbdd-cucumber** - Replaces @lynxwall/cucumber-tsflow
-- **@lynxwall/lynxbdd-gherkin** - Code currently in cucumber-tsflow that will be split out into it's own package for re-use in other utilities and tools.
+- **@lynxbdd/cucumber-ts** - Replaces @lynxwall/cucumber-tsflow
+- **@lynxbdd/gherkin** - Code currently in cucumber-tsflow that will be split out into it's own package for re-use in other utilities and tools.
 
 Along with the rebranding there are several high-level goals:
 
@@ -41,11 +41,11 @@ Along with the rebranding there are several high-level goals:
 
 To maintain naming consistency, the VS Code extension will be renamed to the following:
 
-- **LynxBDD Cucumber for VS Code**
+- **LynxBDD Cucumber TS for VS Code**
 
 In addition to rebranding, there are several high-level goals:
 
-- Take advantage of lynxbdd-cucumber updates to execute all tests from the test runner in a single process. This will allow the support of parallel test execution within the test runner.
+- Take advantage of cucumber-ts updates to execute all tests from the test runner in a single process. This will allow the support of parallel test execution within the test runner.
 - Add support to generate test "steps" from feature files.
 - General code refactor to eliminate as many side effects as possible while making the code more efficient.
 
