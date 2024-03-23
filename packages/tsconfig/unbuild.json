@@ -1,9 +1,14 @@
 {
-  "extends": "./base.json",
-  "compilerOptions": {
-    "lib": ["esnext", "dom"],
-    "strictNullChecks": true,
-    "jsx": "preserve",
-    "types": ["node"]
-  }
+	"extends": "./base.json",
+	"compilerOptions": {
+		"lib": [
+			"esnext",
+			"dom"
+		],
+		"strictNullChecks": true,
+		"jsx": "preserve",
+		"types": [
+			"node"
+		]
+	}
 }

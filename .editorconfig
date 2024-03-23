@@ -1,0 +1,20 @@
+root = true
+
+[*]
+charset = utf-8
+indent_style = tab
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_size = 2
+
+# Microsoft .NET properties
+### CSharpier-compatible settings ###
+dotnet_diagnostic.IDE0055.severity = none
+dotnet_style_operator_placement_when_wrapping = beginning_of_line
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
+csharp_style_namespace_declarations = file_scoped
+
+[*.{appxmanifest,asax,ascx,aspx,axaml,build,cg,cginc,compute,cs,cshtml,dtd,hlsl,hlsli,hlslinc,master,nuspec,paml,razor,resw,resx,shader,skin,usf,ush,vb,xaml,xamlx,xoml,xsd}]
+indent_size = 4
