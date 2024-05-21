@@ -2,7 +2,6 @@
 	"name": "@lynxbdd/cucumber-ts",
 	"type": "module",
 	"version": "0.0.0",
-	"private": true,
 	"license": "GPL-3.0",
 	"repository": {
 		"type": "git",

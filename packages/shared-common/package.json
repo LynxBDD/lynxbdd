@@ -1,0 +1,8 @@
+{
+	"name": "@lynxbdd/shared-common",
+	"version": "0.0.0",
+	"private": true,
+	"dependencies": {
+		"log4js": "^6.9.1"
+	}
+}
